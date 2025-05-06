@@ -37,7 +37,7 @@
                 <td th:text="${employee.phoneno}"></td>
                 <td th:text="${employee.salary}"></td>
                 <td>
-                    <a th:href="@{'/view/' + ${employee.id}}" id="view">View</a>
+                    <a th:href="@{'/view/' + ${employee.id}}" class="view" id="view">View</a>
                     <a th:href="@{'/edit/' + ${employee.id}}" class="edit">Edit</a>
                     <a th:href="@{'/delete/' + ${employee.id}}" class="delete" >Delete</a>
                 </td>

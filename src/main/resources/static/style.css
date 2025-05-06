@@ -127,7 +127,11 @@ padding:3px;
 .email:hover,
 .phone:hover,
 .salary:hover,
-.submit:hover{
+.add_btn:hover,
+.submit:hover,
+.view:hover,
+.edit:hover,
+.delete:hover{
     background-color: rgb(151, 218, 195);
     cursor: pointer;
 }
